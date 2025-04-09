@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JavaScript</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>
+    PAGINA
+    <button id="toggleButton" style="display: block;">Ligar</button>
+    <script>
+      const button = document.getElementById('toggleButton');
+      button.addEventListener('click', () => {
+        button.textContent = button.textContent === 'Ligar' ? 'Desligar' : 'Ligar';
+      });
+    </script>
+    </h1>
+  </body>
+</html>
