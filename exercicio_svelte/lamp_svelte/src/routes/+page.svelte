@@ -21,7 +21,7 @@
     }
 
     .section-desligada {
-        background-color: #333;
+        background-color: #000000;
     }
 
     img {
